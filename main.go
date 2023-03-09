@@ -79,7 +79,6 @@ func replayWebsocketData(url string, inputFile string, port int) error {
     return nil
 }
 
-
 func main() {
     if len(os.Args) < 4 {
         fmt.Println("Usage: go run main.go [save|replay] [url] [filename] [port]")
